@@ -1,0 +1,14 @@
+CM NEC-WIN Example
+CM 3-element Yagi-Uda antenna in Free Space
+CM Optimized for maximum F/B and resonance at 300 MHz
+CE 
+GW 1 9 0 -.24095 2 0 .24095 2 .0001
+GW 2 9 -.182 -.2494 2 -.182 .2494 2 .0001
+GW 3 9 .182 -.2287 2 .182 .2287 2 .0001
+GS 0 0 1
+GE 0
+EX 0 1 5 0 1 0
+FR 0 20 0 0 200 10
+RP 0 181 1 1000 -90 0 1 1
+RP 0 3 360 1000 50 0 10 1
+EN

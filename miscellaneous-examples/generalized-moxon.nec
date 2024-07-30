@@ -1,0 +1,21 @@
+CM Generalized 4NEC2 Moxon antenna model which allows optimization of the "MoxGen" A, B, D, E dimensions and wire size at any selected feedpoint height and frequency. C=E-(B+D) by hand calculation.
+CM Dick Reid 28 Aug 2014
+CM KK4OBI
+CE
+SY hgh= x.xx ' Feed point height over average ground - meters
+SY A=x.xx ' Radiator/Reflector dimension - meters
+SY B=x.xx ' Radiator bent ends dimension - meters
+SY D=x.xx ' Reflector bent ends dimension - meters
+SY E=x.xx ' Side dimension - meters
+GW 1 25 0 0 hgh A 0 hgh #12
+GW 2 7 0 0 hgh 0 B hgh #12
+GW 3 7 A 0 hgh A B hgh #12 C not used
+GW 4 25 0 E hgh A E hgh #12
+GW 5 9 0 E-D hgh 0 E hgh #12
+GW 6 9 A E-D hgh A E hgh #12
+GE 1
+GN 2 0 0 0 4 0.003
+EK
+EX 0 1 13 01 1 0 0
+FR 0 0 0 0 28.4 0
+EN

@@ -1,0 +1,19 @@
+CM NEC-WIN BASIC Example
+CM Simple dipole antenna in Free Space
+CM Optimized for resonance at 300 MHz
+CE 
+GW 1 5 0 0 0 .04341 0 .2462 .0001
+GW 2 5 0 0 0 0 .04341 .2462 .0001
+GW 3 5 0 0 0 -.04341 0 .2462 .0001
+GW 4 5 0 0 0 0 -.04341 .2462 .0001
+GS 0 0 1
+GE 1
+GN 0 0 0 0 15 .01
+EX 0 1 1 0 1 0
+EX 0 2 1 0 1 0
+EX 0 3 1 0 1 0
+EX 0 4 1 0 1 0
+FR 0 1 0 0 300 1
+RP 0 181 1 1000 -90 0 1 1
+RP 0 1 360 1000 63 0 1 1
+EN

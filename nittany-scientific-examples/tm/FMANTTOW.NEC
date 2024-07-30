@@ -1,0 +1,68 @@
+CE  FMANTTWR
+GW 1,1, 0,0,0, 0,0,4.125, .75                   BOT. LEG STUB
+GM 0,1, 0,0,0, 0,0,235.875, 001.001             TOP LEG STUB
+GW 2,2, 0,0,4.125, 0,0,21.375, .75              BOT HALF BOT CELL LEG
+GW 2,2, 0,0,21.375, 0,0,42.75, .75              TOP HALF BOT CELL LEG
+GW 2,1, 0,0,42.75, 0,0,51, .75                  BOT HALF 2ND CELL LEG
+GW 2,1, 0,0,51, 0,0,60, .75                                "
+GW 2,2, 0,0,60, 0,0,81.375, .75                 TOP HALF 2ND CELL LEG
+GW 2,8, 0,0,81.375, 0,0,158.625, .75            3RD & 4TH CELL LEGS
+GW 2,1, 0,0,158.625, 0,0,171, .75               BOT HALF 5TH CELL LEG
+GW 2,1, 0,0,171, 0,0,180, .75                   BOT HALF 5TH CELL LEG
+GW 2,2, 0,0,180, 0,0,197.25, .75                TOP HALF 5TH CELL LEG
+GW 2,4, 0,0,197.25, 0,0,235.875, .75            6TH CELL LEG
+GW 3,4, 0,0,4.125, 0,42,4.125, .438             BOTTOM GIRT
+GM 0,6, 0,0,0, 0,0,38.625, 003.003              REST OF GIRTS
+GW 4,6, 0,42,4.125, 0,0,42.75, .438             DIAGONAL
+GM 0,2, 0,0,0, 0,0,38.625, 004.004              2 MORE DIAGONALS
+GW 5,6, 0,0,4.125, 0,42,42.75, .438             OPPOSITE SLOPE DIAGONAL
+GM 0,0, 0,0,0, 0,0,115.875, 005.005             RAISE IT UP TO TOP HALF
+GM 0,2, 0,0,0, 0,0,38.625, 005.005              2 MORE OPP SLOPE DIAGS
+GM 0,1, 0,0,0, 0,0,240, 001.005                 ADD THE TOP 20 FEET
+GM 0,0, 0,0,0, -12.12435,-21,0, 001.005         POSITION FOR ROTATE
+GR 100,3                                        ROTATE FOR 2 MORE FACES
+GM 0,0, 0,0,0, -24.2487,0,0,                    MOVE N LEG TO ORIGIN
+GW 801,2, 0,0,0, 0,12,0, 0.875                        HALF OF CROSS BAR
+GW 802,1, 0,12,0, 4.6,12,2.4, 0.875                   HORN PC
+GW 803,2, 4.6,12,2.4, 12.2,4.48,7.36, 0.875              "
+GW 804,1, 12.2,4.48,7.36, 13.2,-2.2,9.48, 0.875
+GW 805,1, 0,12,0, -4.6,12,-2.4, 0.875
+GW 806,3, -4.6,12,-2.4, -12.2,4.48,-7.36, 0.875       FEED SEGGIES
+GW 807,1, -12.2,4.48,-7.36, -13.2,-2.2,-9.48, 0.875
+GW 808,2, 0,0,0, 0,-12,0, 0.875                       OTHER HLF OF X BAR
+GW 809,1, 0,-12,0, 4.6,-12,-2.4, 0.875                HORN STUFF
+GW 810,3, 4.6,-12,-2.4, 12.2,-4.48,-7.36, 0.875       FEED SEGGIES
+GW 811,1, 12.2,-4.48,-7.36, 13.2,2.2,-9.48, 0.875     HORN STUFF
+GW 812,1, 0,-12,0, -4.6,-12,2.4, 0.875                   "
+GW 813,2, -4.6,-12,2.4, -12.2,-4.48,7.36, 0.875          "
+GW 814,1, -12.2,-4.48,7.36, -13.2,2.2,9.48, 0.875        "
+GW 815,3, 0,0,0, -26.5,0,0, 0.875               HORIZ BOOM TO BRKT
+GW 816,2, -26.5,-5,0, -26.5,5,0, .7             FRONT OF BRKT
+GW 817,1, -26.5,-5,0, -31.5,-5,0, .7            SIDE OF BRKT
+GW 817,1, -26.5,5,0, -31.5,5,0, .7                     "
+GW 817,2, -31.5,5,0, -48.5,5,0, .7                     "
+GW 817,2, -31.5,-5,0, -48.5,-5,0, .7                   "
+GW 818,3, -31.5,-5,0 -48.5,-5,-9, .7            DIAGONAL BRACE
+GW 818,3, -31.5,5,0 -48.5,5,-9, .7              DIAGONAL BRACE
+GW 819,1, -48.5,-5,0, -48.5,-5,-2, .7           VERT REAR OF BRKT
+GW 819,1, -48.5,5,0, -48.5,5,-2, .7                     "
+GW 819,2, -48.5,-5,-2, -48.5,-5,-9, .7          VERT REAR OF BRKT
+GW 819,2, -48.5,5,-2, -48.5,5,-9, .7                   "
+GW 819,2, -48.5,-5,-9, -48.5,-5,-13, .7         VERT REAR OF BRKT
+GW 819,2, -48.5,5,-9, -48.5,5,-13, .7                  "
+GW 819,2, -48.5,-5,-2, -48.5,5,-2, .7           HORIZ TOP REAR BKT
+GW 819,2, -48.5,-5,-11, -48.5,5,-11, .7         HORIZ BOT REAR BKT
+GW 820,1, -26.5,0,0, -34.5,0,0, 0.875           HRZ BM BRKT TO FDLINE
+GW 821,1, -48.5,0,-2, -49.75,0,-2, .7      STANDOFF STUB/RR BRKT TO TWR
+GW 821,1, -48.5,0,-11, -49.75,0,-11, .7                 "
+GM 0,0, 0,0,0, 34.5,0,0, 800.900           OUT TO PUT FDLINE AT ORIGIN
+GW 822,10, 0,0,-60, 0,0,60, 0.875          FEED LINE
+GM 0,0, 0,0,0, 15.25,0,0, 800.900             MOVE OUT TO TOWER LEG
+GM 0,0, 0,0,0, 00,0,0, 800.900             MOVE OUT FOR SPACING-TO-TWR
+GM 20,3, 0,0,0, 0,0,120, 800.900           CREATE 3 MORE BAYS
+GM 0,0, 0,0,0, 0,0,62, 800.900             RAISE UP TO TOWER CONX PT
+GM 0,0, 0,0,000, 0,0,0, 800.900            ROTATE TO THE DESIRED BRNG
+GM 0,0, 0,0,0, 0,0,0, 800.900              ROTATE 180 FOR FACE MOUNT
+GM 0,0, 0,0,0, 0,0,0, 800.900              SLIDE FOR FACE MOUNT
+GS2
+GE
